@@ -14,16 +14,16 @@ CREATE TABLE WorkoutSessions (
 );
 
 INSERT INTO Members (id, name, age) VALUES
-(1, 'John brown', 30),
-(2, 'Jane do', 25),
-(3, 'Alice Johnson', 35),
-(4, 'Bob Brown', 28);
+(1, 'John brown', 44),
+(2, 'Jane do', 35),
+(3, 'Alice Johnson', 28),
+(4, 'Bob Brown', 21);
 
 INSERT INTO WorkoutSessions (session_id, member_id, session_date, session_time, activity) VALUES
-(1, 1, '2025-03-01', '08:00 AM', 'Cardio'),
-(2, 2, '2025-03-02', '09:00 AM', 'Strength Training'),
-(3, 3, '2025-03-03', '10:00 AM', 'Weightlifting'),
-(4, 4, '2025-03-04', '07:00 AM', 'Cycling');
+(1, 1, '2025-03-01', '06:00 AM', 'Cardio'),
+(2, 2, '2025-03-02', '08:00 AM', 'Strength Training'),
+(3, 3, '2025-03-03', '07:00 AM', 'Weightlifting'),
+(4, 4, '2025-03-04', '10:00 AM', 'Cycling');
 
 
 UPDATE WorkoutSessions
